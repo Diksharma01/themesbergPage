@@ -1,0 +1,826 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: #AEAEC040;
+    position: relative;
+    overflow: hidden;
+ 
+}
+#nav{
+    height: 50px;
+    width: 50px;
+    background-color: #AEAEC040;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    position: relative;
+    border-radius: 10px;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+
+}
+a{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+#pages{
+    font-size: 19px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 1%;
+    left: 23%;
+    position: relative;
+}
+#pages1{
+    font-size: 19px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 8%;
+    left: 4.6%;
+}
+#components{
+    font-size: 19px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 8.7%;
+    left: 32%;
+
+}
+#Components1{
+    font-size: 19px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    position: relative;
+}
+#support{
+    font-size: 19px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 8.7%;
+    left: 45%;
+    
+}
+#Support1{
+    font-size: 19px;
+    font-family: sans-serif;
+    position: absolute;
+    position: relative;
+    top: 9%;
+    left:10%;
+}
+#upgrade{
+    height: 48px;
+    width: 154px;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+     position: absolute;
+    top: 5.8%;
+    right: 24%;
+    border-radius: 8px;
+
+}
+#upgrad1{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 25%;
+    right: 4.5%;
+    color: blue;
+}
+#tele{
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    color: blue;
+
+}
+#docs{
+    height: 47px;
+    width: 110px;
+      background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+    position: absolute;
+    background-color: #AEAEC040;
+    top: 5.8%;
+    right: 15%;
+    border-radius: 8px;
+
+}
+#person{
+    font-size: 23px;
+    position: absolute;
+    top: 22%;
+    left: 3%;
+}
+#docs1{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 29%;
+    right: 5%;
+}
+#BgBox{
+    height: 300px;
+    width: 890px;
+    /* background-color: rgb(7, 250, 230); */
+    position: absolute;
+    top: 25%;
+    left:  18%;
+}
+#themesberg{
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    position: relative;
+}
+#themesberg1{
+    font-size: 50px;
+     font-family: sans-serif;
+}
+#text{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 45%;
+
+}
+#text2{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 56%;
+    left: 18%;
+}
+#work{
+    width: 200px;
+    height: 60px;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+    position: absolute;
+    bottom: 20%;
+    left: 43%;
+    border-radius: 10px;
+}
+#work1{
+    font-size: 27px;
+    font-family: sans-serif;
+    right: 5%;
+    top: 20%;
+}
+#book{
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+#back1{
+    width: 100%;
+    height: 100%;
+    background-color: #AEAEC040;
+    position: relative;
+    overflow: hidden;
+ 
+}
+#skyBox{
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    left: 15%;
+    top: 17%;
+    border-radius: 8px;
+    border: 2px solid rgba(245, 236, 236, 0.555);
+    outline: none;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001, 
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+   
+}
+#smlBox1{
+    width: 332.5px;
+    height: 450px; 
+    position: absolute;
+    z-index: 999999999;   
+
+}
+#Audience{
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 42%;
+}
+#Audience1{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+#Audience2{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 61%;
+    left: 10%;
+}
+#Audience3{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute; 
+    top: 68%;
+    left: 13%;
+}
+#Audience4{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 14%;
+}
+#small{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    
+}
+#small1{
+    font-size: 35px;
+}
+#crl{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border-radius: 50%;
+     background-color:#AEAEC040;
+    box-shadow:
+    inset -10px -10px 10px #ffffff70,
+    inset 10px 10px 10px #aeaec020;
+   
+}
+#smlBox2{
+    width: 332.8px;
+    height: 450px;
+    /* background-color: rgb(3, 63, 48); */
+    position: absolute;  
+    left: 33.3%; 
+}
+#Branding{
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+#steam{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+
+    
+}
+#steam1{
+    font-size: 35px;
+}
+#steam2{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+#steam3{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 61%;
+    left: 8%;
+    
+}
+#steam4{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute; 
+    top: 68%;
+    left: 7%;
+}
+#steam5{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+#smlBox3{
+    width: 332.9px;
+    height: 450px;
+    /* background-color: rgb(22, 4, 56); */
+    position: absolute;  
+    right: 0%; 
+}
+#Production{
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+#unity{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+
+    
+}
+#unity1{
+    font-size: 35px;
+}
+#Production1{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+#Production2{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 61%;
+    left: 8%;
+    
+}
+#Production3{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute; 
+    top: 68%;
+    left: 7%;
+}
+#Production4{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 34%;
+}
+#back2{
+    width: 100%;
+    height: 100%;
+    background-color: #AEAEC040;
+    position: relative;
+    overflow: hidden;
+ 
+}
+#imgbox{
+    width: 350px;
+    height: 360px;
+    background-color: #AEAEC040;
+    position: absolute;
+    left: 15%;
+    top: 22%;
+    border-radius: 300px 290px 130px 290px;
+    /* border: 8px solid rgba(216, 213, 213, 0.308);; */
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px rgba(102, 96, 96, 0.6),
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001, 
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+  /* border:  5px solid white;
+  box-shadow: 0px  2px 6px 3px rgb(5, 5, 5); */
+  position: relative;
+}
+#m{
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 0%;
+    border-radius: 300px 290px 130px 290px;
+    border:  5px solid white;
+    position: relative;
+}
+#design{
+    width: 570px;
+    height: 370px;
+    /* background-color: rgb(48, 180, 158); */
+    position: absolute;
+    top: 22%;
+     right:10%;
+}
+#design1{
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 10%;
+}
+#design2{
+    font-size: 20px;
+    word-spacing: 10px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+
+}
+#Diksha{
+    font-size: 20px;
+    position: absolute;
+    left: 3%;
+    top: 60%;
+
+}
+#back3{
+    width: 100%;
+    height: 100%;
+    background-color: #AEAEC040;
+    position: relative;
+    overflow: hidden;
+ 
+}
+#dot{
+    height: 80px;
+    width: 80px;
+    background-color:#c2c2ca40;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
+               -5px -5px 10px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 17%;
+    top: 5%;
+}
+#emoji{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    
+}
+#emoji1{
+    font-size: 35px;
+}
+#team{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+
+}
+#five{
+    font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 24%;
+    left: 19%;
+
+}
+#dot1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
+               -5px -5px 10px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 48%;
+    top: 5%;
+}
+#project{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}
+#four{
+    font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 24%;
+    left: 49%;
+
+}
+#eye{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    
+}
+#eye1{
+    font-size: 35px;
+}
+#dot2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
+               -5px -5px 10px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 17%;
+    top: 5%;
+}
+#Countries{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    right: 16.8%;
+
+}
+#eight{
+    font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 24%;
+    right: 19%;
+
+}
+#earth{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    
+}
+#earth1{
+    font-size: 35px;
+}
+#ourteam{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 38%;
+    left: 47%;
+    letter-spacing: 2px;
+}
+#card{
+    width: 830px;
+    height: 300px;
+    /* background-color: rgb(236, 253, 2); */
+    position: absolute;
+    top: 48%;
+    left: 20%;
+}
+
+
+#box{
+    height: 300px;
+    width: 230px;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    border: 8px solid rgba(216, 213, 213, 0.308);
+    /* box-shadow:
+       -7px -7px 20px 0px #fff9,
+       -4px -4px 5px 0px rgba(102, 96, 96, 0.6),
+       7px 7px 20px 0px #0002,
+       4px 4px 5px 0px #0001, 
+       inset 0px 0px 0px 0px #fff9  inset,
+       inset 0px 0px 0px 0px #0001  inset,
+       inset 0px 0px 0px 0px #fff9  inset,       
+         0px 0px 0px 0px #0001  inset; */
+}
+#boxdot{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+}
+#emoji{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    
+}
+#emoji1{
+    font-size: 35px;
+}
+#box1{
+    height: 300px;
+    width: 230px;
+    position: absolute;
+    left:36%;
+    top: 0%;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+}
+#boxdot1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+}
+#emoji{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    
+}
+#emoji1{
+    font-size: 35px;
+}
+#neil{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 51%;
+    left: 28%;
+}
+#co{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 64%;
+    left: 10%;
+}
+#fonts{
+    width:210px ;
+    height: 50px;
+    /* background-color: rgb(231, 130, 231); */
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0px 20px;
+    font-size: 28px;
+}
+
+#box2{
+    height: 300px;
+    width: 230px;
+  
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+}
+#bonnle{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 51%;
+    left: 18%;
+}
+#front{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 64%;
+    left: 10%;
+    letter-spacing: 1px;
+}
+#boxdot3{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #AEAEC040;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,       
+     inset 0px 0px 0px 0px #0001;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+}
+#emoji{
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    
+}
+#emoji1{
+    font-size: 35px;
+}
+#full{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 51%;
+    left: 17%;
+}
+#stack{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 64%;
+    left: 10%;
+    letter-spacing: 1px;
+}
